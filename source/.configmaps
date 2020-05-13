@@ -1,0 +1,25 @@
+[
+	{
+		#applications : [
+			'Battleship' : '1.0',
+			'LightCycles' : '1.0',
+			'Mastermind' : '1.0',
+			'Minesweeper' : '1.1',
+			'Pacman' : '1.0',
+			'Snake' : '1.0',
+			'STCalculatorApp' : '1.0',
+			'TowerOfHanoi' : '1.1'
+		],
+		#conditions : [
+			{
+				#condition : 'true',
+				#requiredMaps : [
+					'ENVY/Image Examples' : 'V 9.2.0  [416]'
+				]
+			}
+		],
+		#name : 'Retro Games',
+		#versionName : '1.0',
+		#comment : ''
+	}
+]
