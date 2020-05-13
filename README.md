@@ -16,7 +16,7 @@
 </p>
 
 
-Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented with VASmalltalk. Excellent examples for showing what you can do and for learning GUI development. Watch out [some screenshots](screenshots/) to get an idea!
+Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented with VASmalltalk. Excellent examples for showing what you can do and for learning GUI development. Watch out [some screenshots](assets/screenshots/) to get an idea!
 
 ## License
 - The code is licensed under [MIT](LICENSE).
