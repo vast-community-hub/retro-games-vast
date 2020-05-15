@@ -22,14 +22,25 @@ Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented wi
 - The code is licensed under [MIT](LICENSE).
 - The documentation is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
-## Quick Start
 
 ## Installation
 
+1. Install [VA Smalltalk 9.2.x or newer](https://www.instantiations.com/products/vasmalltalk/download.html).
+2. Install Tonel support in your development image following [this guide](https://github.com/vasmalltalk/tonel-vast#installation).
+3. Load the desired Configuration Maps of this project either from the context menu or via a script (mind that you may need to update the path so that it points to your local clone):
+```smalltalk
+| loader path |
+path := ((CfsPath named: CfsDirectoryDescriptor getcwd) append: '..\tonel-repos\retro-games-vast').
+loader := TonelLoader readFromPath: path.
+loader
+	beUnattended.
+	useGitVersion.
+loader loadAllMapsWithRequiredMaps.
+```
 
 ## Playing
 
-Below is a script to start the games. They all have the same API:
+Below is a script to start each game. They all have the same API:
 
 ```smalltalk
 BattleshipWindow new open.
@@ -49,4 +60,4 @@ Check the [Contribution Guidelines](CONTRIBUTING.md)
 
 ## Acknowledgments
 
-- [Lee Clayberg](https://github.com/LeeClayberg) for all the initial work.
+- [Lee Clayberg](https://github.com/LeeClayberg) for all the initial development of this project.
