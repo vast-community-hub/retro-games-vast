@@ -18,7 +18,7 @@
 
 Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented with VASmalltalk. Excellent examples for showing what you can do and for learning GUI development. Watch out [some screenshots](assets/screenshots/) to get an idea!
 
-<img width="500" alt="Retro Games Collage" src="assets/screenshots/retro-games-vast-collage.png">
+<img alt="Retro Games Collage" src="assets/screenshots/retro-games-vast-collage.png">
 
 ## License
 - The code is licensed under [MIT](LICENSE).
