@@ -17,13 +17,13 @@ You can report issues [here](https://github.com/vast-community-hub/retro-games-v
 
 
 ### Using Tonel
-1. Download a [VASmalltalk](https://www.instantiations.com/products/vasmalltalk/download.html)
-2. Clone the project or your fork using Git
-3. Using Tonel, load all the Configuration Maps.
+1. Install [VA Smalltalk 9.2.x or newer](https://www.instantiations.com/products/vasmalltalk/download.html)
+2. Clone this project or your fork using Git
 6. Create a new branch to host your code changes
+3. Using Tonel, load all the desired Configuration Maps
 7. Do the changes
 8. Run the test cases
-9. Commit and push your changes to the branch using Git
+9. Commit and push your changes to the created branch using Git
 10. Create a Pull Request against the `release-candidate` branch
 
 

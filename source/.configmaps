@@ -1,25 +1,63 @@
 [
 	{
-		#applications : [
-			'Battleship' : '1.0',
-			'LightCycles' : '1.0',
-			'Mastermind' : '1.0',
-			'Minesweeper' : '1.1',
-			'Pacman' : '1.0',
-			'Snake' : '1.0',
-			'STCalculatorApp' : '1.0',
-			'TowerOfHanoi' : '1.1'
-		],
 		#conditions : [
 			{
 				#condition : 'true',
 				#requiredMaps : [
-					'ENVY/Image Examples' : 'V 9.2.0  [416]'
+					{
+						#name : 'ENVY/Image Examples',
+						#versionName : 'V 9.2.0  [416]',
+						#ts : 3704527564
+					}
 				]
 			}
 		],
+		#ts : 3766822520,
+		#comment : '',
+		#formatVersion : '1.1',
+		#applications : OrderedCollection [
+			{
+				#name : 'Battleship',
+				#versionName : '1.0',
+				#ts : 3744449857
+			},
+			{
+				#name : 'LightCycles',
+				#versionName : '1.0',
+				#ts : 3744449885
+			},
+			{
+				#name : 'Mastermind',
+				#versionName : '1.0',
+				#ts : 3744449890
+			},
+			{
+				#name : 'Minesweeper',
+				#versionName : '1.1',
+				#ts : 3766821977
+			},
+			{
+				#name : 'Pacman',
+				#versionName : '1.0',
+				#ts : 3744449905
+			},
+			{
+				#name : 'Snake',
+				#versionName : '1.0',
+				#ts : 3744449912
+			},
+			{
+				#name : 'STCalculatorApp',
+				#versionName : '1.0',
+				#ts : 3744449929
+			},
+			{
+				#name : 'TowerOfHanoi',
+				#versionName : '1.1',
+				#ts : 3766821979
+			}
+		],
 		#name : 'Retro Games',
-		#versionName : '1.0',
-		#comment : ''
+		#versionName : '1.0'
 	}
 ]
