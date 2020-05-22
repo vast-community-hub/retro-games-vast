@@ -27,7 +27,7 @@ Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented wi
 
 ## Installation
 
-1. Install [VA Smalltalk 9.2.x or newer](https://www.instantiations.com/products/vasmalltalk/download.html).
+1. Install [VA Smalltalk 9.2.1 or newer](https://www.instantiations.com/products/vasmalltalk/download.html).
 2. Install Tonel support in your development image following [this guide](https://github.com/vasmalltalk/tonel-vast#installation).
 3. Load the desired Configuration Maps of this project either from the context menu or via a script (mind that you may need to update the path so that it points to your local clone):
 ```smalltalk
