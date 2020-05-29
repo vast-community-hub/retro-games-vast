@@ -12,14 +12,14 @@
 				]
 			}
 		],
-		#ts : 3766822520,
+		#ts : 3768209547,
 		#comment : '',
 		#formatVersion : '1.1',
 		#applications : OrderedCollection [
 			{
 				#name : 'Battleship',
-				#versionName : '1.0',
-				#ts : 3744449857
+				#versionName : '1.2',
+				#ts : 3768209514
 			},
 			{
 				#name : 'LightCycles',
@@ -28,13 +28,13 @@
 			},
 			{
 				#name : 'Mastermind',
-				#versionName : '1.0',
-				#ts : 3744449890
+				#versionName : '1.2',
+				#ts : 3768209514
 			},
 			{
 				#name : 'Minesweeper',
-				#versionName : '1.1',
-				#ts : 3766821977
+				#versionName : '1.2',
+				#ts : 3768209514
 			},
 			{
 				#name : 'Pacman',
@@ -58,6 +58,6 @@
 			}
 		],
 		#name : 'Retro Games',
-		#versionName : '1.0'
+		#versionName : '1.1'
 	}
 ]

@@ -591,11 +591,12 @@ MastermindWindow >> reset [
 			allPossible remove: r].].
 	feedBack := OrderedCollection new.
 	
+	"
 	Transcript 
 		clear;
 		show: (answer printString);
 		cr.
-	
+	"
 	
 	
 	

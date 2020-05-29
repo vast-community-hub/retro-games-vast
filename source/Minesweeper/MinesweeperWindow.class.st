@@ -981,7 +981,7 @@ MinesweeperWindow >> setVariables [
 	self 
 		addMines;
 		updateNeighbors;
-		printGrid: board;
+		"printGrid: board;"
 		clear;
 		drawBoard
 

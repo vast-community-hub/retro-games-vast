@@ -522,8 +522,9 @@ BattleshipWindow >> open [
 		initializeVars;
 		drawFullBackground;
 		addShips;
-		addOpponentShips;
-		printGrid: opponentBoard
+		addOpponentShips.
+	
+	"self printGrid: opponentBoard"
 ]
 
 { #category : 'Not categorized' }
