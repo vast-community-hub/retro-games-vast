@@ -30,17 +30,19 @@ Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented wi
 1. Install [VA Smalltalk 9.2.1 or newer](https://www.instantiations.com/products/vasmalltalk/download.html).
 2. Install Tonel support in your development image following [this guide](https://github.com/vasmalltalk/tonel-vast#installation).
 3. Clone this repository.
-4. Load the Configuration Map `Retro Games` either from the context menu of the Configuration Maps Browser ("*Import*" -> "*Load Configuration Maps from Tonel repository...*" -> select path to root `retro-games-vast` local repo) or via a script:
+4. The easiest and recommended approach is to install it via a script:
 
 ```smalltalk
 | loader path |
 path := (CfsPath named: '<insert path to root retro-games-vast local repo here>').
 loader := TonelLoader readFromPath: path.
 loader
-	beUnattended.
+	beUnattended. "do not prompt and use all defaults"
 	useGitVersion.
 loader loadAllMapsWithRequiredMaps.
 ```
+
+However, for a more fine-tuned or advanced installation, you can load the Configuration Map `Retro Games` from the context menu of the Configuration Maps Browser: `"Import"` -> `"Load Configuration Maps from Tonel repository..."` -> select path to root `retro-games-vast` local repo. This will open a dialog that allows you to customize many aspects of the Tonel load. Refer to [its documentation](https://github.com/instantiations/tonel-vast#using-gui-menus) for more details.
 
 ## Playing
 
