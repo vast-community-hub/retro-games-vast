@@ -37,12 +37,15 @@ Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented wi
 path := (CfsPath named: '<insert path to root retro-games-vast local repo here>').
 loader := TonelLoader readFromPath: path.
 loader
-	beUnattended. "do not prompt and use all defaults"
+	beUnattended; "do not prompt and use all defaults"
 	useGitVersion.
 loader loadAllMapsWithRequiredMaps.
 ```
 
-However, for a more fine-tuned or advanced installation, you can load the Configuration Map `Retro Games` from the context menu of the Configuration Maps Browser: `"Import"` -> `"Load Configuration Maps from Tonel repository..."` -> select path to root `retro-games-vast` local repo. This will open a dialog that allows you to customize many aspects of the Tonel load. Refer to [its documentation](https://github.com/instantiations/tonel-vast#using-gui-menus) for more details.
+Or you can load the Configuration Map `Retro Games` from the context menu of the Configuration Maps Browser: `"Import"` -> `"Load Configuration Maps from Tonel repository..."` -> select path to root `retro-games-vast` local repo. This will open a dialog and will use convenient defaults for the load. Refer to [its documentation](https://github.com/instantiations/tonel-vast#using-gui-menus) for more details.
+
+
+
 
 ## Playing
 
