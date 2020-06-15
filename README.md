@@ -60,6 +60,7 @@ PacmanWindow new open.
 SnakeWindow new open.
 STCalculator new open.
 TowerOfHanoiWindow new open.
+TetrisGameView new openInShellView.
 ```
 
 ## Contributing
@@ -70,3 +71,4 @@ Check the [Contribution Guidelines](CONTRIBUTING.md)
 ## Acknowledgments
 
 - [Lee Clayberg](https://github.com/LeeClayberg) for all the initial development of this project.
+- Julian Ford for the Tetris code.
