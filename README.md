@@ -19,7 +19,7 @@
 Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented with VA Smalltalk. Excellent examples for showing what you can do and for learning GUI development. Watch out [some screenshots](assets/screenshots/) to get an idea!
 
 <img alt="Retro Games Collage" src="assets/screenshots/retro-games-vast-collage.png">
-<img height="500" alt="Retro Games Tetris" src="assets/screenshots/Tetris.png">
+<img height="300" alt="Retro Games Tetris" src="assets/screenshots/Tetris.png">
 
 ## License
 - The code is licensed under [MIT](LICENSE).
