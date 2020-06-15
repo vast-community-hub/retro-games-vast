@@ -1,8 +1,8 @@
 <p align="center">
 <!---<img src="assets/logos/128x128.png">-->
- <h1 align="center">Retro Games for VASmalltalk</h1>
+ <h1 align="center">Retro Games for VAST Platform (VA Smalltalk)</h1>
   <p align="center">
-    Retro games implemented with VASmalltalk!
+    Retro games implemented with VA Smalltalk!
     <!---
     <br>
     <a href="docs/"><strong>Explore the docs »</strong></a>
@@ -16,7 +16,7 @@
 </p>
 
 
-Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented with VASmalltalk. Excellent examples for showing what you can do and for learning GUI development. Watch out [some screenshots](assets/screenshots/) to get an idea!
+Small collection of retro games (Pacman, Snake, BattleShip, etc.) implemented with VA Smalltalk. Excellent examples for showing what you can do and for learning GUI development. Watch out [some screenshots](assets/screenshots/) to get an idea!
 
 <img alt="Retro Games Collage" src="assets/screenshots/retro-games-vast-collage.png">
 
